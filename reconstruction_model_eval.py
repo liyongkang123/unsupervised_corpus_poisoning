@@ -19,8 +19,6 @@ from utils.load_model import prefix_tokenizer
 from tqdm import tqdm
 from sklearn.metrics import f1_score,accuracy_score,precision_score,recall_score
 from torch.utils.data import DataLoader
-import numpy as np
-from utils.utils import mean_var
 
 def Recontruction_evaluate_test(model, dataloader, device):
     '''
