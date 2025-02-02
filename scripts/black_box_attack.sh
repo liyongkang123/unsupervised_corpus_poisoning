@@ -16,6 +16,6 @@ method_list=('random_noise' 'random_token' 'hotflip' 'unsupervised')
 
 for sub_method in "${method_list[@]}"; do
     for sub_dataset in "${dataset_list[@]}"; do
-        sbatch /home/yli8/unsupervised_corpus_poisoning/scripts/black_box_attack_sub.sh  "${sub_dataset}" "${sub_method}"
+        sbatch /scripts/black_box_attack_sub.sh  "${sub_dataset}" "${sub_method}"
     done
 done

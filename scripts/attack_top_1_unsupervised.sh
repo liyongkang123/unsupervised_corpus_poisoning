@@ -16,6 +16,6 @@ dataset_list=( "trec_dl19"  "trec_dl20" "nq"   "nfcorpus" "hotpotqa"   "quora"  
 
 for sub_attack_model_code in "${attack_model_code_list[@]}"; do
     for sub_dataset in "${dataset_list[@]}"; do
-        sbatch /home/yli8/unsupervised_corpus_poisoning/scripts/attack_top_1_unsupervised_sub.sh "${sub_attack_model_code}" "${sub_dataset}"
+        sbatch scripts/attack_top_1_unsupervised_sub.sh "${sub_attack_model_code}" "${sub_dataset}"
     done
 done
