@@ -19,4 +19,5 @@ python attack_top_1_random_token.py \
     --attack_split test \
     --attack_number 100 \
     --perplexity_model_name_or_path 'meta-llama/Llama-3.2-1B' \
-    --random_token_replacement_rate 0.3
+    --random_token_replacement_rate 0.3 \
+    --seed 2026 # 2024,2025,2026

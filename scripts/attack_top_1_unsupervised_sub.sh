@@ -19,5 +19,6 @@ python attack_top_1_unsupervised.py \
     --attack_split test \
     --attack_number 100 \
     --num_attack_epochs 3000 \
-    --lm_loss_clip_max 6.0 \
-    --perplexity_model_name_or_path 'meta-llama/Llama-3.2-1B'
+    --lm_loss_clip_max 5.0 \
+    --perplexity_model_name_or_path 'meta-llama/Llama-3.2-1B' \
+    --seed 2026 # 2024,2025,2026
