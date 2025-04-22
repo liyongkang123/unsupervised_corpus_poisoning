@@ -1,5 +1,6 @@
 # unsupervised_corpus_poisoning_public
-This is the code repository for our SIGIR paper submission.
+This is the code repository for our SIGIR 2025 paper [《Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval
+》]()..
 
 ## Datasets
 
@@ -42,3 +43,15 @@ In the explicitly mentioned parts of the paper, we conducted three experiments u
 
 ## Thanks 
 - We thank the authors of the 《Reproducing HotFlip for Corpus Poisoning Attacks in Dense Retrieval 》and 《Poisoning Retrieval Corpora by Injecting Adversarial Passages》 for their code and data. We use their code to reproduce the results of the HotFlip attack.
+
+# Citation
+If you find this code useful, I would greatly appreciate it if you could cite our paper:
+```
+@inproceedings{li2025unsupervised_corpus_poisoning,
+  title={Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval},
+  author={Yongkang Li and Panagiotis Eustratiadis and Simon Lupart and Evangelos Kanoulas},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, {SIGIR} 2025},
+  year={2025},
+  url={}, 
+}
+```
