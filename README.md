@@ -1,6 +1,6 @@
 # unsupervised_corpus_poisoning_public
-This is the code repository for our SIGIR 2025 paper [《Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval
-》]()..
+This is the code repository for our SIGIR 2025 Full paper [《Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval
+》](https://arxiv.org/abs/2504.17884)..
 
 ## Datasets
 
