@@ -52,6 +52,7 @@ If you find this code useful, I would greatly appreciate it if you could cite ou
   author={Yongkang Li and Panagiotis Eustratiadis and Simon Lupart and Evangelos Kanoulas},
   booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, {SIGIR} 2025},
   year={2025},
-  url={}, 
+  url = {https://doi.org/10.48550/arXiv.2504.17884},
+  doi = {10.48550/ARXIV.2504.17884},
 }
 ```
