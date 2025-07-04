@@ -46,13 +46,13 @@ In the explicitly mentioned parts of the paper, we conducted three experiments u
 
 # Citation
 If you find this code useful, I would greatly appreciate it if you could cite our paper:
-```
+```bibtex
 @inproceedings{li2025unsupervised_corpus_poisoning,
   title={Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval},
   author={Yongkang Li and Panagiotis Eustratiadis and Simon Lupart and Evangelos Kanoulas},
   booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, {SIGIR} 2025},
   year={2025},
-  url = {https://doi.org/10.48550/arXiv.2504.17884},
-  doi = {10.48550/ARXIV.2504.17884},
+  url = {https://doi.org/10.1145/3726302.3730110},
+  doi = {10.1145/3726302.3730110},
 }
 ```
